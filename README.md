@@ -9,7 +9,8 @@ staat in deze map.
 index.html                 de volledige website (HTML + CSS + JS in één bestand)
 images/                    geoptimaliseerde afbeeldingen (.webp + .png/.jpg als terugval)
 fonts/sonja-headings.woff2 titellettertype (zie hieronder)
-favicon.svg                icoontje in het browsertabblad
+favicon-32.png             icoontje in het browsertabblad (uit het handen-beeldmerk)
+favicon-192.png            groter tabblad-/Android-icoontje
 apple-touch-icon.png       icoontje als iemand de site op zijn telefoon bewaart
 robots.txt                 instructies voor zoekmachines
 sitemap.xml                sitemap voor Google Search Console
@@ -85,11 +86,21 @@ neemt vanzelf over.
 - Open Graph + Twitter-kaart, met een aparte deelafbeelding (1200×630)
 - structured data (JSON-LD): `ProfessionalService` / `LocalBusiness`, `Person` met
   de vier opleidingen, `WebSite` en `WebPage` — inclusief exacte GPS-coördinaten
-  van Oppemstraat 8
+  van Oppemstraat 8, `logo`, `contactPoint`, een `hasOfferCatalog` met de
+  diensten, en een `areaServed` met Wolvertem/Meise en de omliggende gemeenten
+  (Grimbergen, Merchtem, Londerzeel, Wemmel, Kapelle-op-den-Bos, Zemst) plus
+  Vlaams-Brabant en het Brussels Hoofdstedelijk Gewest
+- zaaknaam overal identiek geschreven: **Sonja Cassiman | Rouw- en verlies counselor**
+  (met `|`), adres overal **Oppemstraat 8, 1861 Wolvertem (Meise)**
+- telefoonnummer is overal doorklikbaar (`tel:`-link) maar in dezelfde stijl als
+  gewone tekst
+- synoniemen in de zichtbare tekst en in `knowsAbout`: rouwbegeleiding,
+  rouwtherapie, verliesverwerking, verliesbegeleiding
 - nette kopstructuur: één `h1`, daaronder `h2` per onderdeel
 - beschrijvende bestandsnamen en alt-teksten op elke afbeelding
 - `robots.txt` en `sitemap.xml`
-- afbeeldingen van ±5 MB naar ±660 KB gebracht (WebP, met terugval)
+- afbeeldingen als WebP met terugval; WebP-versies die niet kleiner uitvielen dan
+  de PNG/JPG zijn verwijderd (o.a. *alle-emoties* en *mee-luisteren*)
 - afmetingen op elke afbeelding, zodat de pagina niet verspringt tijdens het laden
 - alle tekstkleuren halen WCAG AA-contrast
 
@@ -102,7 +113,7 @@ neemt vanzelf over.
    Gebruik **exact** dezelfde gegevens als op de site — Google vergelijkt ze:
 
    ```
-   Naam     Sonja Cassiman — Rouw- en verlies counselor
+   Naam     Sonja Cassiman | Rouw- en verlies counselor
    Adres    Oppemstraat 8, 1861 Wolvertem
    Telefoon +32 498 47 42 56
    Website  https://www.sonjacassiman.be/
@@ -124,10 +135,14 @@ neemt vanzelf over.
 - **De tekening van de rugzak in de contactsectie** (dia 8 van het voorstel) zat
   niet als los bestand in de map — enkel de versie mét aquarel, die nu bij
   *Mee luisteren* staat. Bezorg je de lijntekening, dan zet ik ze erbij.
-- **Bellen kan niet meer met één tik.** Doordat de `tel:`-links weg zijn, kunnen
-  bezoekers op gsm het nummer niet meer aantikken om te bellen; ze gaan via
-  WhatsApp of typen het nummer over. Wil je op gsm tóch een belknop, dan kan dat
-  met een link die enkel op telefoons verschijnt — zeg maar of je dat wil.
+- **Openingsuren, tarief, `sameAs` en reviews** zitten nog niet in de structured
+  data omdat de gegevens ontbreken. Bezorg openingsuren of "enkel op afspraak",
+  een richtprijs per sessie, en de links naar je Google Bedrijfsprofiel en social
+  media (voor `sameAs`), dan vullen we die aan. Echte getuigenissen kunnen als
+  `Review` toegevoegd worden.
+- **Nog geen aparte pagina's** per dienst of doelgroep. Eén pagina beperkt op
+  hoeveel zoekopdrachten je kan ranken; losse pagina's (bv. rouwbegeleiding
+  kinderen, tarieven, contact) zijn een latere uitbreiding.
 - **Geen `www` gebruiken?** Vervang dan overal `https://www.sonjacassiman.be`
   door `https://sonjacassiman.be` in `index.html`, `robots.txt` en `sitemap.xml`.
 - **Jaartal in de voettekst** staat op 2026 en moet elk jaar handmatig mee.

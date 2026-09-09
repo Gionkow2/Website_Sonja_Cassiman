@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Rouw- en verlies counselor Wolvertem | Sonja Cassiman</title>
-<meta name="description" content="Rouw- en verlies counseling in Wolvertem (Meise), voor kinderen, jongeren en volwassenen. Bij overlijden of levend verlies. Elk verlies is hier welkom.">
+<meta name="description" content="Rouwbegeleiding en verliesverwerking in Wolvertem (Meise), voor kinderen, jongeren en volwassenen. Bij overlijden of levend verlies. Elk verlies is hier welkom.">
 <link rel="canonical" href="https://www.sonjacassiman.be/">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta name="author" content="Sonja Cassiman">
@@ -18,20 +18,22 @@
 <!-- Open Graph / social -->
 <meta property="og:type" content="website">
 <meta property="og:locale" content="nl_BE">
-<meta property="og:site_name" content="Sonja Cassiman — Rouw- en verlies counselor">
+<meta property="og:site_name" content="Sonja Cassiman | Rouw- en verlies counselor">
 <meta property="og:title" content="Rouw- en verlies counselor Wolvertem | Sonja Cassiman">
-<meta property="og:description" content="Rouw- en verlies counseling in Wolvertem (Meise), voor kinderen, jongeren en volwassenen. Bij overlijden of levend verlies. Elk verlies is hier welkom.">
+<meta property="og:description" content="Rouwbegeleiding en verliesverwerking in Wolvertem (Meise), voor kinderen, jongeren en volwassenen. Bij overlijden of levend verlies. Elk verlies is hier welkom.">
 <meta property="og:url" content="https://www.sonjacassiman.be/">
 <meta property="og:image" content="https://www.sonjacassiman.be/images/sonja-cassiman-rouw-en-verlies-counselor-og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Sonja Cassiman, rouw- en verlies counselor in Wolvertem">
+<meta property="og:image:alt" content="Sonja Cassiman, rouw- en verlies counselor in Wolvertem (Meise)">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Rouw- en verlies counselor Wolvertem | Sonja Cassiman">
-<meta name="twitter:description" content="Rouw- en verlies counseling in Wolvertem (Meise), voor kinderen, jongeren en volwassenen. Elk verlies is hier welkom.">
+<meta name="twitter:description" content="Rouwbegeleiding en verliesverwerking in Wolvertem (Meise), voor kinderen, jongeren en volwassenen. Elk verlies is hier welkom.">
 <meta name="twitter:image" content="https://www.sonjacassiman.be/images/sonja-cassiman-rouw-en-verlies-counselor-og.jpg">
+<meta name="twitter:image:alt" content="Sonja Cassiman, rouw- en verlies counselor in Wolvertem (Meise)">
 
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
 <link rel="preload" as="font" type="font/woff2" href="fonts/sonja-headings.woff2" crossorigin>
@@ -208,6 +210,7 @@ a{color:inherit}
   color:inherit;
   letter-spacing:.01em;
   white-space:nowrap;
+  text-decoration:none;
 }
 
 /* zwart-wit WhatsApp-icoon */
@@ -420,6 +423,12 @@ a{color:inherit}
   border:none;
 }
 
+/* Telefoonnummer is doorklikbaar (tel:) maar houdt dezelfde stijl als gewone tekst. */
+.contact__line .contact__phone{
+  text-decoration:none;
+  border:0;
+}
+
 .map{
   border:1px solid var(--hairline);
   aspect-ratio:4 / 3;
@@ -555,7 +564,7 @@ a{color:inherit}
 
     <div class="header__right">
       <p class="header__contact">
-        <span class="header__phone">+32&nbsp;498&nbsp;47&nbsp;42&nbsp;56</span>
+        <a class="header__phone" href="tel:+32498474256">+32&nbsp;498&nbsp;47&nbsp;42&nbsp;56</a>
         <a class="wa-link" href="https://wa.me/32498474256" target="_blank" rel="noopener"
            aria-label="Stuur een WhatsApp-bericht naar +32 498 47 42 56 (opent in een nieuw venster)">
           <svg class="wa-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
@@ -584,7 +593,7 @@ a{color:inherit}
       <img class="hero__art"
            src="images/rouw-en-verlies-counselor-handen.png"
            width="1000" height="1000"
-           alt="Twee handen die naar elkaar reiken in een rood-blauwe aquarel, het beeldmerk van de rouw- en verliescounseling van Sonja Cassiman"
+           alt="Twee handen die naar elkaar reiken in een rood-blauwe aquarel, het beeldmerk van de rouw- en verliesbegeleiding van Sonja Cassiman"
            fetchpriority="high" decoding="async">
     </picture>
   </div>
@@ -601,12 +610,12 @@ a{color:inherit}
         <p class="reveal --delay-1">
           Als rouw- en verlies counselor luister ik in de eerste plaats naar jouw verhaal,
           het unieke verlies dat je mee draagt, wat het met je doet, waar het vast zit,
-          hoe het zich toont.
+          hoe het zich toont. Van daaruit zoeken we samen, in alle rust, een weg
+          in je rouwverwerking.
         </p>
       </div>
       <div class="row__art reveal --delay-1">
         <picture>
-          <source type="image/webp" srcset="images/mee-luisteren-voelen-en-begrijpen.webp">
           <img class="art--wide"
                src="images/mee-luisteren-voelen-en-begrijpen.png"
                width="1000" height="1000" loading="lazy" decoding="async"
@@ -626,7 +635,7 @@ a{color:inherit}
             <p>Of het nu gaat om het overlijden van een dierbare...</p>
           </li>
           <li>
-            <p>Of een ernstige ziekte, scheiding, fysieke beperking, relatiebreuk, vrienschapsbreuk, ontslag, verlies van verleden of toekomst...</p>
+            <p>Of een ernstige ziekte, scheiding, fysieke beperking, relatiebreuk, vriendschapsbreuk, ontslag, verlies van verleden of toekomst...</p>
           </li>
           <li>
             <p>Iedereen krijgt in zijn leven te maken met rouw en verlies.</p>
@@ -652,8 +661,8 @@ a{color:inherit}
       <div class="row__text">
         <h2 class="title title--single" id="hoe-titel">Een ruimte om te helen</h2>
         <p class="reveal --delay-1">
-          Ik kijk en luister op creatieve manieren naar wat niet zichtbaar is,
-          breng het samen met jou weer naar buiten, in beweging.
+          Met creatieve rouwtherapie kijk en luister ik naar wat niet zichtbaar is,
+          en breng het samen met jou weer naar buiten, in beweging.
           Op een manier en een tempo dat bij jou past.
         </p>
       </div>
@@ -687,7 +696,6 @@ a{color:inherit}
       </div>
       <div class="row__art reveal --delay-1">
         <picture>
-          <source type="image/webp" srcset="images/alle-emoties-mogen-gevoeld-worden.webp">
           <img class="art--wide"
                src="images/alle-emoties-mogen-gevoeld-worden.png"
                width="1000" height="1000" loading="lazy" decoding="async"
@@ -707,7 +715,8 @@ a{color:inherit}
           Rouw kent geen leeftijd, verlies kent geen verschillen.
         </p>
         <p class="reveal --delay-2">
-          Elk verlies, hoe klein of hoe groot, is hier welkom.
+          Elk verlies, hoe klein of hoe groot, is hier welkom —
+          in mijn praktijk in Wolvertem (Meise) en de ruime regio errond.
         </p>
       </div>
       <div class="row__art reveal --delay-1">
@@ -771,20 +780,19 @@ a{color:inherit}
     <div class="contact__grid">
       <div class="reveal --delay-1">
         <p class="contact__intro">
-          Of heb je een vraag?<br>
-          Neem dan zeker contact met me op!
+          Wil je een afspraak maken in mijn praktijk in Wolvertem (Meise)?<br>
+          Of heb je een vraag? Neem dan zeker contact met me op.
         </p>
 
         <address class="contact__block">
-          Himalaja praktijk<br>
           Oppemstraat 8<br>
-          1861 Wolvertem
+          1861 Wolvertem (Meise)
         </address>
 
         <address class="contact__block">
           <a href="mailto:info@sonjacassiman.be">info@sonjacassiman.be</a><br>
           <span class="contact__line">
-            <span class="contact__phone">+32&nbsp;498&nbsp;47&nbsp;42&nbsp;56</span>
+            <a class="contact__phone" href="tel:+32498474256">+32&nbsp;498&nbsp;47&nbsp;42&nbsp;56</a>
             <a class="wa-link" href="https://wa.me/32498474256" target="_blank" rel="noopener"
                aria-label="Stuur een WhatsApp-bericht naar +32 498 47 42 56 (opent in een nieuw venster)">
               <svg class="wa-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
@@ -799,14 +807,14 @@ a{color:inherit}
         <div class="map">
           <iframe
             src="https://www.google.com/maps?q=Oppemstraat%208,%201861%20Wolvertem,%20Belgi%C3%AB&z=15&output=embed"
-            title="Kaart met de ligging van Himalaja praktijk, Oppemstraat 8 in 1861 Wolvertem"
+            title="Kaart met de ligging van de praktijk, Oppemstraat 8 in 1861 Wolvertem (Meise)"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <a class="map-link"
            href="https://www.google.com/maps/dir/?api=1&destination=Oppemstraat+8,+1861+Wolvertem,+Belgi%C3%AB"
            target="_blank" rel="noopener"
-           aria-label="Routebeschrijving naar Oppemstraat 8, 1861 Wolvertem openen in Google Maps (nieuw venster)">Routebeschrijving openen</a>
+           aria-label="Routebeschrijving naar Oppemstraat 8, 1861 Wolvertem (Meise) openen in Google Maps (nieuw venster)">Routebeschrijving openen</a>
       </div>
     </div>
   </section>
@@ -817,10 +825,10 @@ a{color:inherit}
   <div class="wrap site-footer__inner">
     <p>
       <strong>Sonja Cassiman</strong> | Rouw- en verlies counselor<br>
-      Himalaja praktijk, Oppemstraat 8, 1861 Wolvertem
+      Oppemstraat 8, 1861 Wolvertem (Meise)
     </p>
     <p>
-      +32 498 47 42 56<br>
+      <a href="tel:+32498474256">+32&nbsp;498&nbsp;47&nbsp;42&nbsp;56</a><br>
       <a href="mailto:info@sonjacassiman.be">info@sonjacassiman.be</a>
     </p>
     <p>© 2026 Sonja Cassiman</p>
@@ -860,7 +868,7 @@ a{color:inherit}
       "@type": "WebSite",
       "@id": "https://www.sonjacassiman.be/#website",
       "url": "https://www.sonjacassiman.be/",
-      "name": "Sonja Cassiman — Rouw- en verlies counselor",
+      "name": "Sonja Cassiman | Rouw- en verlies counselor",
       "inLanguage": "nl-BE",
       "publisher": { "@id": "https://www.sonjacassiman.be/#praktijk" }
     },
@@ -869,7 +877,7 @@ a{color:inherit}
       "@id": "https://www.sonjacassiman.be/#webpage",
       "url": "https://www.sonjacassiman.be/",
       "name": "Rouw- en verlies counselor Wolvertem | Sonja Cassiman",
-      "description": "Rouw- en verlies counseling in Wolvertem (Meise), voor kinderen, jongeren en volwassenen. Bij overlijden of levend verlies. Elk verlies is hier welkom.",
+      "description": "Rouwbegeleiding en verliesverwerking in Wolvertem (Meise), voor kinderen, jongeren en volwassenen. Bij overlijden of levend verlies. Elk verlies is hier welkom.",
       "isPartOf": { "@id": "https://www.sonjacassiman.be/#website" },
       "about": { "@id": "https://www.sonjacassiman.be/#praktijk" },
       "inLanguage": "nl-BE"
@@ -877,13 +885,25 @@ a{color:inherit}
     {
       "@type": ["ProfessionalService", "LocalBusiness"],
       "@id": "https://www.sonjacassiman.be/#praktijk",
-      "name": "Sonja Cassiman — Rouw- en verlies counselor",
-      "alternateName": "Himalaja praktijk",
+      "name": "Sonja Cassiman | Rouw- en verlies counselor",
       "url": "https://www.sonjacassiman.be/",
-      "description": "Rouw- en verliescounseling voor kinderen, jongeren, jongvolwassenen en volwassenen in Wolvertem (Meise). Begeleiding bij rouw om de dood en bij levend verlies.",
+      "description": "Rouwbegeleiding en verliesverwerking voor kinderen, jongeren, jongvolwassenen en volwassenen in Wolvertem (Meise). Begeleiding bij rouw om een overlijden en bij levend verlies, met creatieve en traumasensitieve werkvormen.",
       "image": "https://www.sonjacassiman.be/images/sonja-cassiman-rouw-en-verlies-counselor-og.jpg",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.sonjacassiman.be/images/rouw-en-verlies-counselor-handen.png",
+        "width": 1000,
+        "height": 1000
+      },
       "telephone": "+32498474256",
       "email": "info@sonjacassiman.be",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+32498474256",
+        "email": "info@sonjacassiman.be",
+        "contactType": "customer service",
+        "availableLanguage": { "@type": "Language", "name": "Nederlands", "alternateName": "nl" }
+      },
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Oppemstraat 8",
@@ -899,22 +919,85 @@ a{color:inherit}
       },
       "hasMap": "https://www.google.com/maps/search/?api=1&query=Oppemstraat+8,+1861+Wolvertem,+Belgi%C3%AB",
       "areaServed": [
-        { "@type": "City", "name": "Meise" },
         { "@type": "City", "name": "Wolvertem" },
+        { "@type": "City", "name": "Meise" },
         { "@type": "City", "name": "Grimbergen" },
-        { "@type": "City", "name": "Londerzeel" },
         { "@type": "City", "name": "Merchtem" },
-        { "@type": "AdministrativeArea", "name": "Vlaams-Brabant" }
+        { "@type": "City", "name": "Londerzeel" },
+        { "@type": "City", "name": "Wemmel" },
+        { "@type": "City", "name": "Kapelle-op-den-Bos" },
+        { "@type": "City", "name": "Zemst" },
+        { "@type": "AdministrativeArea", "name": "Vlaams-Brabant" },
+        { "@type": "AdministrativeArea", "name": "Brussels Hoofdstedelijk Gewest" }
       ],
       "availableLanguage": { "@type": "Language", "name": "Nederlands", "alternateName": "nl" },
       "knowsAbout": [
         "Rouwbegeleiding",
+        "Rouwtherapie",
         "Verliesverwerking",
+        "Verliesbegeleiding",
         "Rouw bij kinderen en jongeren",
         "Levend verlies",
+        "Rouw bij een overlijden",
         "Traumasensitief coachen",
         "Creatieve therapie"
       ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Rouw- en verliesbegeleiding",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Rouwbegeleiding bij een overlijden",
+              "serviceType": "Rouwbegeleiding",
+              "description": "Begeleiding voor volwassenen die rouwen om het overlijden van een dierbare.",
+              "provider": { "@id": "https://www.sonjacassiman.be/#praktijk" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Rouwbegeleiding voor kinderen en jongeren",
+              "serviceType": "Rouwbegeleiding",
+              "description": "Integratieve kinder- en jongerentherapie rond rouw en verlies, op maat van het kind of de jongere.",
+              "provider": { "@id": "https://www.sonjacassiman.be/#praktijk" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Begeleiding bij levend verlies",
+              "serviceType": "Verliesbegeleiding",
+              "description": "Ondersteuning bij verlies zonder overlijden: scheiding, ziekte, een fysieke beperking, een relatie- of vriendschapsbreuk, ontslag, of het verlies van verleden of toekomst.",
+              "provider": { "@id": "https://www.sonjacassiman.be/#praktijk" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Creatieve rouwtherapie",
+              "serviceType": "Creatieve therapie",
+              "description": "Werken met creatieve werkvormen om te verwoorden en te verwerken wat niet meteen zichtbaar is.",
+              "provider": { "@id": "https://www.sonjacassiman.be/#praktijk" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Traumasensitieve begeleiding",
+              "serviceType": "Traumasensitief coachen",
+              "description": "Rouw- en verliesbegeleiding met aandacht voor trauma en veiligheid, in een rustig tempo.",
+              "provider": { "@id": "https://www.sonjacassiman.be/#praktijk" }
+            }
+          }
+        ]
+      },
       "founder": { "@id": "https://www.sonjacassiman.be/#sonja" },
       "employee": { "@id": "https://www.sonjacassiman.be/#sonja" }
     },
