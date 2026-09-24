@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://www.sonjacassiman.be/</loc>
+    <loc>https://sonjacassiman.be/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://www.sonjacassiman.be/images/rouw-en-verlies-counselor-handen.png</image:loc>
+      <image:loc>https://sonjacassiman.be/images/rouw-en-verlies-counselor-handen.png</image:loc>
       <image:title>Rouw- en verlies counselor Sonja Cassiman</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.sonjacassiman.be/images/sonja-cassiman-rouw-en-verlies-counselor.jpg</image:loc>
+      <image:loc>https://sonjacassiman.be/images/sonja-cassiman-rouw-en-verlies-counselor.jpg</image:loc>
       <image:title>Sonja Cassiman, rouw- en verlies counselor in Wolvertem</image:title>
     </image:image>
   </url>

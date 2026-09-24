@@ -20,11 +20,11 @@ originelen/                de originele, onbewerkte afbeeldingen (niet uploaden)
 ## Online zetten
 
 Upload de inhoud van deze map — **behalve `originelen/` en dit bestand** — naar de
-hoofdmap (root) van `www.sonjacassiman.be`. Meer is er niet nodig.
+hoofdmap (root) van `sonjacassiman.be`. Meer is er niet nodig.
 
 Zorg dat de host:
 - **HTTPS** afdwingt (verplicht voor Google);
-- `sonjacassiman.be` doorstuurt naar `www.sonjacassiman.be` (of omgekeerd, maar dan
+- `www.sonjacassiman.be` doorstuurt naar `sonjacassiman.be` (of omgekeerd, maar dan
   moet de `canonical`-regel in `index.html`, `robots.txt` en `sitemap.xml` mee
   aangepast worden);
 - **compressie** (gzip of brotli) aanzet voor `.html`, `.svg`, `.xml`;
@@ -107,7 +107,7 @@ neemt vanzelf over.
 ## Na het online zetten — in deze volgorde
 
 1. **Google Search Console** → domein toevoegen, eigendom bevestigen,
-   `https://www.sonjacassiman.be/sitemap.xml` indienen en de startpagina laten
+   `https://sonjacassiman.be/sitemap.xml` indienen en de startpagina laten
    indexeren via *URL-inspectie → Indexering aanvragen*.
 2. **Google Bedrijfsprofiel** (Google Business Profile) aanmaken of opeisen.
    Gebruik **exact** dezelfde gegevens als op de site — Google vergelijkt ze:
@@ -116,7 +116,7 @@ neemt vanzelf over.
    Naam     Sonja Cassiman | Rouw- en verlies counselor
    Adres    Oppemstraat 8, 1861 Wolvertem
    Telefoon +32 498 47 42 56
-   Website  https://www.sonjacassiman.be/
+   Website  https://sonjacassiman.be/
    ```
 
    Wijkt de naam in je bedrijfsprofiel af, pas dan ook `"name"` aan in het
@@ -143,6 +143,6 @@ neemt vanzelf over.
 - **Nog geen aparte pagina's** per dienst of doelgroep. Eén pagina beperkt op
   hoeveel zoekopdrachten je kan ranken; losse pagina's (bv. rouwbegeleiding
   kinderen, tarieven, contact) zijn een latere uitbreiding.
-- **Geen `www` gebruiken?** Vervang dan overal `https://www.sonjacassiman.be`
+- **Geen `www` gebruiken?** Vervang dan overal `https://sonjacassiman.be`
   door `https://sonjacassiman.be` in `index.html`, `robots.txt` en `sitemap.xml`.
 - **Jaartal in de voettekst** staat op 2026 en moet elk jaar handmatig mee.
